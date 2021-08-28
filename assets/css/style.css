@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url('assets/images/tree_background');
+    background-image: url("../images/tree_background.jpg");
+    background-size: ;
     background-repeat: no-repeat;
-    background-image: red;
+    background-size: 100% 100%;
 }
