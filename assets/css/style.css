@@ -14,3 +14,9 @@ body {
     background-size: 100% 100%;
     background-position: center;
 }
+
+#title {
+    float: left;
+    font-size: 260%;
+    margin-left: 25px;
+}
