@@ -65,7 +65,7 @@ h1 {
 main {
     display: grid;
     grid-template-columns:  500px 500px;
-    grid-template-rows: repeat(4, 175px);
+    grid-template-rows: repeat(4, 200px);
     column-gap: 350px;
     justify-items: stretch;
     align-items: center;
@@ -81,7 +81,7 @@ main {
     text-align: center;
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-    height: 350px;
+    height: 400px;
 }
 
 #headshot img {
@@ -93,6 +93,29 @@ main {
 #aboutme {
     border: 1px solid black;
     grid-column: 2 / 3;
-    height: 350px;
+    height: 400px;
     grid-row: 2 / 4;
+}
+
+/* footer  */
+
+footer {
+    height: 50px;
+}
+
+.social_links {
+    text-align: center;
+}
+
+.social_links > li {
+    display: inline;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
+li > a {
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
 }
