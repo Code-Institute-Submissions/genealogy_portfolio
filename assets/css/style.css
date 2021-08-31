@@ -13,7 +13,7 @@ body, html {
 body {
     background-image: url("../images/tree_background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -54,20 +54,23 @@ body {
 
 /* main rules*/
 
-
+main {
+    display: grid;
+    grid-template-columns:  500px 500px;
+    column-gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
 
 /* headshot figure rules */
 
 #headshot {
     border: 1px solid black;
-    width: 500px;
-    height: 350px;
     text-align: center;
+    grid-column: 1 / 2;
 }
 
 #headshot img {
-  width: 400px;
-  height: 250px;
   padding: 25px;
 }
 
@@ -75,6 +78,5 @@ body {
 
 #aboutme {
     border: 1px solid black;
-    width: 500px;
-    height: 700px;
+    grid-column: 2 / 3;
 }
