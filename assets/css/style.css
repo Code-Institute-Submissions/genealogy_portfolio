@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* body and background image rules */
+
 body, html {
     height: 100%;
 }
@@ -15,8 +17,33 @@ body {
     background-position: center;
 }
 
+/* header rules */
+
 #title {
     float: left;
     font-size: 260%;
     margin-left: 25px;
+}
+
+#navmenu {
+    letter-spacing: 4px;
+}
+
+#navmenu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navmenu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
