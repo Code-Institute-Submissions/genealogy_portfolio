@@ -71,6 +71,7 @@ main {
     border: 1px solid black;
     text-align: center;
     grid-column: 1 / 2;
+    height: 350px;
 }
 
 #headshot img {
@@ -82,4 +83,5 @@ main {
 #aboutme {
     border: 1px solid black;
     grid-column: 2 / 3;
+    height: 350px;
 }
