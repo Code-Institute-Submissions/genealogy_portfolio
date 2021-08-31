@@ -14,10 +14,11 @@ body {
     background-image: url("../images/tree_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-/* header rules */
+ /* headings rules  */
 
 #title {
     float: left;
@@ -25,12 +26,19 @@ body {
     margin-left: 25px;
 }
 
-#navmenu {
-    letter-spacing: 4px;
+h1 {
+    text-transform: uppercase;
+    color: black;
+}
+
+/* nav menu & header rules  */
+
+#navmenu, h1 {
+    letter-spacing: 3px;
 }
 
 #title, #navmenu {
-    line-height: 50px;
+    line-height: 75px;
 }
 
 #navmenu li {
