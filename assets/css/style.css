@@ -57,9 +57,11 @@ body {
 main {
     display: grid;
     grid-template-columns:  500px 500px;
-    column-gap: 50px;
-    justify-items: center;
+    column-gap: 100px;
+    justify-items: stretch;
     align-items: center;
+    justify-content: center;
+    align-content:  center;
     clear: both;
 }
 
