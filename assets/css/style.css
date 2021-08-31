@@ -47,3 +47,11 @@ body {
 .active {
     border-bottom: 1px solid black;
 }
+
+/* headshot figure rules */
+
+#headshot {
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+}
