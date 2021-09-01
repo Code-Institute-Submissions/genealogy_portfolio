@@ -33,7 +33,12 @@ h1 {
 
 /* nav menu & header rules  */
 
-#navmenu, h1 {
+header {
+    height: 75px;
+    background-color: rgba(139, 167, 179, 0.6);
+}
+
+#navmenu, #title {
     letter-spacing: 3px;
 }
 
@@ -99,18 +104,22 @@ main {
 
 /* footer  */
 
-footer {
-    height: 50px;
+#footer {
+    height: 25px;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 .social_links {
     text-align: center;
+    background-color: rgba(139, 167, 179, 0.6);
 }
 
 .social_links > li {
     display: inline;
     margin: 1%;
-    padding: 5%;
+    padding: 5% 5% 0 5%;
     color: black;
 }
 
