@@ -10,7 +10,21 @@
         position: relative;
         min-height: 100%;
     }
-/* body and background image rules */
+
+ /* headings rules  */
+
+#title {
+    float: left;
+    font-size: 260%;
+    margin-left: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: black;
+}
+
+/* home background image rules */
 
 #home {
     background-image: url("../images/Home_img.jpg");
@@ -28,19 +42,22 @@
     clear: both;
 }
 
- /* headings rules  */
-
-#title {
-    float: left;
-    font-size: 260%;
-    margin-left: 25px;
+/* info background image rules  */
+#info {
+    background-image: url("../images/Info.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-position: center center;
+    display: grid;
+    grid-template-columns:  500px 500px;
+    grid-template-rows: repeat(4, 200px);
+    column-gap: 350px;
+    justify-items: stretch;
+    align-items: center;
+    justify-content: center;
+    align-content:  center;
+    clear: both;
 }
-
-h1 {
-    text-transform: uppercase;
-    color: black;
-}
-
 /* nav menu & header rules  */
 
 header {
@@ -135,7 +152,7 @@ main {
 
 #footer {
     height: 25px;
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:100%;
 }
