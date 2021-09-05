@@ -24,6 +24,40 @@ h1 {
     color: black;
 }
 
+/* nav menu & header rules  */
+
+header {
+    height: 75px;
+    background-color: rgba(139, 167, 179, 0.6);
+}
+
+#navmenu, #title {
+    letter-spacing: 3px;
+}
+
+#title, #navmenu {
+    line-height: 70px;
+}
+
+#navmenu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navmenu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
 /* home background image rules */
 
 #home {
@@ -58,38 +92,23 @@ h1 {
     align-content:  center;
     clear: both;
 }
-/* nav menu & header rules  */
 
-header {
-    height: 75px;
-    background-color: rgba(139, 167, 179, 0.6);
-}
+/* contact section background photo style rules  */
+#contact {
 
-#navmenu, #title {
-    letter-spacing: 3px;
-}
-
-#title, #navmenu {
-    line-height: 70px;
-}
-
-#navmenu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 25px;
-}
-
-#navmenu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#navmenu a:hover {
-    border-bottom: 1px solid black;
-}
-
-.active {
-    border-bottom: 1px solid black;
+    background-image: url("../images/Contact.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-position: center center;
+    display: grid;
+    grid-template-columns:  500px 500px;
+    grid-template-rows: repeat(4, 200px);
+    column-gap: 350px;
+    justify-items: stretch;
+    align-items: center;
+    justify-content: center;
+    align-content:  center;
+    clear: both;
 }
 
 /* main rules*/
