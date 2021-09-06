@@ -187,6 +187,18 @@ main {
     width: 350px;
 }
         
+/* contact section rules */
+
+#contact_title {
+    text-align: center;
+}
+
+#contact_textbox {
+    grid-column: 0 / 1;
+    grid-row: 1 / 2;
+    height: 200px;
+}
+
 /* footer  */
 
 #footer {
