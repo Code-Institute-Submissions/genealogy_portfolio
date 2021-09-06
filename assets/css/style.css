@@ -167,6 +167,21 @@ main {
     padding: 0 10px 0 10px;
     text-align: justify;
 }
+
+/* credentials rules */
+
+#credentials {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+/* company info rules */
+
+#company_info {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+}
         
 /* footer  */
 
