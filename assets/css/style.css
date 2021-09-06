@@ -205,6 +205,12 @@ main {
     height: 600px;
 }
 
+#twitter_box {
+    grid-column: 0 / 1;
+    grid-row: 3 / 4;
+    overflow-x: scroll;
+}
+
 /* footer  */
 
 #footer {
