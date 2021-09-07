@@ -214,6 +214,16 @@ main {
     height: 300px;
 }
 
+form {
+    display: grid;
+    text-align: left;
+    grid-row: 3 / 9 ;
+    height: 550px;
+}
+
+form > h2 {
+    text-align: center;
+}
 /* footer  */
 
 #footer {
