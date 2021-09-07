@@ -75,12 +75,16 @@
                     <input type="text" id="company_name" name="company_name" class="form_box">
                     <label for="case_details">Case Details</label>
                     <textarea id="case_details" name="case_details" class="form_box" required rows="4"></textarea>
-                    <label for="personal">Personal</label>
-                    <input type="radio" id="personal" name="customer_type" value="personal" required>
-                    <label for="legal">Legal</label>
-                    <input type="radio" id="legal" name="customer_type" value="legal" required>
-                    <label for="private">Private</label>
-                    <input type="radio" id="private" name="customer_type" value="private" required>
+                    <div id="radio_buttons">
+                        <label for="personal">Personal</label>
+                        <input type="radio" id="personal" name="customer_type" value="personal" required>
+                        <label for="legal">Legal</label>
+                        <input type="radio" id="legal" name="customer_type" value="legal" required>
+                        <label for="private">Private</label>
+                        <input type="radio" id="private" name="customer_type" value="private" required>
+                        </div>
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
                 </form>
             </section>
         </article>

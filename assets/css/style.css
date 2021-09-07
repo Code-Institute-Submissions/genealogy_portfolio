@@ -224,6 +224,15 @@ form {
 form > h2 {
     text-align: center;
 }
+
+#radio_buttons {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+#submit {
+  
+}
 /* footer  */
 
 #footer {
