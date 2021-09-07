@@ -66,8 +66,15 @@
                 <h2 id="contact_form_title"> Contact Me!</h2>
                 <form method="POST" action="form_thank_you.html">
                     <label for="full_name">Full Name</label>
-                    <input type="text" id="full_name" name="full_name"  class="text-input" required>
-                    
+                    <input type="text" id="full_name" name="full_name" class="form_box" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address" class="form_box" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone_number" class="form_box" required>
+                    <label for="company_name">Company Name (Optional)</label>
+                    <input type="text" id="company_name" name="company_name" class="form_box">
+                    <label for="case_details">Case Details</label>
+                    <textarea id="case_details" name="case_details" class="form_box" required rows="4"></textarea>
                 </form>
             </section>
         </article>
