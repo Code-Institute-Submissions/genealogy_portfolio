@@ -61,7 +61,7 @@ header {
 /* home background image rules */
 
 #home {
-    background-image: url("../images/Home_img.jpg");
+    background-image: url("../images/Home_img-min.jpg");
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
@@ -78,7 +78,7 @@ header {
 
 /* info background image rules  */
 #info {
-    background-image: url("../images/Info.jpg");
+    background-image: url("../images/Info-min.jpg");
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
@@ -96,7 +96,7 @@ header {
 /* contact section background photo style rules  */
 #contact {
 
-    background-image: url("../images/Contact.jpg");
+    background-image: url("../images/Contact-min.jpg");
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center center;
@@ -141,7 +141,9 @@ main {
 }
 
 #headshot img {
-  padding: 25px;
+  padding: 10px;
+  height: 320px;
+  width: 450px;
 }
 
 #headshot figcaption {
