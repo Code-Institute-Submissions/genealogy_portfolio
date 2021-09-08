@@ -163,7 +163,7 @@ main {
     color: black;
     font-size: 120%;
     padding: 0 25px 0 25px;
-    text-align: justify;
+    text-align: center;
 }
 
 /* credentials rules */
@@ -189,12 +189,19 @@ main {
 
 #contact_title {
     text-align: center;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 150%;
 }
 
 #contact_textbox {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
     height: 200px;
+    text-align: center;
+    color: black;
+    font-size: 120%;
+    padding: 0 25px 0 25px;
 }
 
 #contact_form {
