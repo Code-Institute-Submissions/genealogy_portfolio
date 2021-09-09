@@ -171,17 +171,13 @@ main {
 #credentials {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-    display: grid;
-    grid-template-columns:  400px;
-    grid-template-rows: repeat(4, 100px);
-    justify-items: stretch;
-    align-items: center;
-    justify-content: center;
-    align-content:  center;
+}
+
+#credentials > h2 {
+    padding-bottom: 25px;
 }
 
 #cred_grid_box {
-    padding-top: 150px;
     display: grid;
     grid-template-columns:  400px;
     grid-template-rows: repeat(4, 75px);
