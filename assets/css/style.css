@@ -31,7 +31,7 @@ h1 {
 
 header {
     height: 75px;
-    background-color: rgba(139, 167, 179, 0.6);
+    background-color: rgba(76, 115, 80, 0.5);
 }
 
 #navmenu, #title {
@@ -141,7 +141,7 @@ h2 {
 /* box background style rules  */
 
 .grey_background { 
-    background-color: rgba(208, 214, 214, 0.8);
+    background-color: rgba(233, 243, 234, 0.8);
 }
 
 /* headshot figure rules */
@@ -291,6 +291,7 @@ form:not(h2){
     margin: auto;
     width: 500px;
     height: 250px;
+    border-radius: 5%;
 }
 
 .css-button-fully-rounded--black {
@@ -328,7 +329,7 @@ form:not(h2){
 
 .social_links {
     text-align: center;
-    background-color: rgba(139, 167, 179, 0.6);
+    background-color: rgba(76, 115, 80, 0.5);
 }
 
 .social_links > li {
