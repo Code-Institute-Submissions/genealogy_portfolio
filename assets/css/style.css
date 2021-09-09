@@ -114,11 +114,23 @@ main {
     height: 2400px;
 }
 
+/* text rules */
+
+h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 150%;
+}
+
+.textcontent {
+    text-align: center;
+    padding: 0 25px 0 25px;
+}
 
 /* css grid rules */
 .grid_box {
     border: 1px solid black;
-    text-align: center;
     height: 400px;
     border-radius: 5%;
 }
@@ -134,6 +146,7 @@ main {
 #headshot {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
+    text-align: center;
 }
 
 #headshot img {
@@ -223,21 +236,10 @@ main {
         
 /* contact section rules */
 
-#contact_title {
-    text-align: center;
-    padding-bottom: 25px;
-    color: black;
-    font-size: 150%;
-}
-
 #contact_textbox {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
     height: 200px;
-    text-align: center;
-    color: black;
-    font-size: 120%;
-    padding: 0 25px 0 25px;
 }
 
 #contact_form {
@@ -253,15 +255,11 @@ main {
     height: 300px;
 }
 
-form {
+form:not(h2){
     display: grid;
     text-align: left;
     grid-row: 3 / 9 ;
     height: 550px;
-}
-
-form > h2 {
-    text-align: center;
 }
 
 #radio_buttons {
