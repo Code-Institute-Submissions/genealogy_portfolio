@@ -181,15 +181,19 @@ main {
     display: grid;
     grid-template-columns:  400px;
     grid-template-rows: repeat(4, 75px);
-    row-gap: 5px;
+    row-gap: 10px;
     justify-items: stretch;
     align-items: stretch;
+    text-align: left;
+    padding-left: 50px;
 }
 
 #cred_list  img {
     float:left;
     height: 75px;
+    padding-right: 5px;
 }
+
 #masters {
     grid-row: 1 / 2;
 }
