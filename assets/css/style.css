@@ -177,14 +177,33 @@ main {
     padding-bottom: 25px;
 }
 
-#cred_grid_box {
+#cred_list {
     display: grid;
     grid-template-columns:  400px;
     grid-template-rows: repeat(4, 75px);
+    row-gap: 5px;
     justify-items: stretch;
-    align-items: center;
-    justify-content: center;
-    align-content:  center;
+    align-items: stretch;
+}
+
+#cred_list  img {
+    float:left;
+    height: 75px;
+}
+#masters {
+    grid-row: 1 / 2;
+}
+
+#diploma {
+    grid-row: 2 / 3;
+}
+
+#certificate {
+    grid-row: 3 / 4;
+}
+
+#work {
+    grid-row: 4 / 5;
 }
 /* company info rules */
 
