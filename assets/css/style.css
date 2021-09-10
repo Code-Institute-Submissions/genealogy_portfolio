@@ -128,14 +128,14 @@ h2 {
     padding-bottom: 25px;
     color: black;
     font-size: 1.6rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
     text-align: center;
     color: black;
     font-size: 1.3rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .textcontent {
@@ -182,19 +182,6 @@ h3 {
 #aboutme {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
-}
-
-#aboutme_title {
-    padding-bottom: 25px;
-    color: black;
-    font-size: 150%;
-}
-
-#aboutme_intro_p {
-    color: black;
-    font-size: 120%;
-    padding: 0 25px 0 25px;
-    text-align: center;
 }
 
 /* credentials rules */
