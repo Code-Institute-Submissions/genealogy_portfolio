@@ -379,6 +379,7 @@ footer {
     position:fixed;
     bottom:0;
     width:100%;
+
 }
 
 .social_links {
@@ -390,7 +391,7 @@ footer {
 .social_links > li {
     display: inline;
     margin: 1%;
-    padding: 5% 5% 0 5%;
+    padding: 5% 5% 5% 5%;
     color: black;
 }
 
