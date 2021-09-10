@@ -342,7 +342,7 @@ form:not(h2){
 }
 /* footer  */
 
-#footer {
+footer {
     height: 30px;
     position:fixed;
     bottom:0;
