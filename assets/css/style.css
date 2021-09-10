@@ -355,7 +355,7 @@ form:not(h2){
 /* footer  */
 
 #footer {
-    height: 25px;
+    height: 30px;
     position:fixed;
     bottom:0;
     width:100%;
@@ -364,6 +364,7 @@ form:not(h2){
 .social_links {
     text-align: center;
     background-color: rgba(76, 115, 80, 0.5);
+    height: 100%;
 }
 
 .social_links > li {
@@ -375,6 +376,6 @@ form:not(h2){
 
 li > a {
     color: black;
-    font-size: 150%;
+    font-size: 1.2rem;
     text-decoration: none;
 }
