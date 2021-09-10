@@ -280,6 +280,8 @@ h3 {
     height: 300px;
 }
 
+/* form  */
+
 form:not(h2){
     display: grid;
     text-align: left;
@@ -292,8 +294,8 @@ form:not(h2){
     padding-top: 25px;
 }
 
-#submit {
-  
+.textinput {
+
 }
 
 /* form thank you page style rules */
