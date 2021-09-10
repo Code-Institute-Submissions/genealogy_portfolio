@@ -65,7 +65,7 @@ header {
 /* home background image rules */
 
 #home {
-    background-image: url("../images/Home_img.webp");
+    background-image: url("../images/home_compressed.webp");
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
@@ -82,7 +82,7 @@ header {
 
 /* info background image rules  */
 #info {
-    background-image: url("../images/Info.webp");
+    background-image: url("../images/info_compressed.webp");
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
@@ -100,7 +100,7 @@ header {
 /* contact section background photo style rules  */
 #contact {
 
-    background-image: url("../images/Contact.webp");
+    background-image: url("../images/contact_compressed.webp");
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center center;
