@@ -427,7 +427,7 @@ li > a {
 
     #home, #info, #contact {
         grid-template-columns: 400px 400px;
-        column-gap: 250px;
+        column-gap: 200px;
     }
 
     #headshot img {
@@ -479,6 +479,16 @@ li > a {
     #submit {
         margin: 0 150px;
     }
+
+    .social_links > li {
+        padding: 4% 4% 4% 4%;
+    }
+    
+
+    li > a {
+        font-size: 1.1rem;
+    }
+    
 
 }
 
