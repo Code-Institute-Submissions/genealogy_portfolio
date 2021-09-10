@@ -192,7 +192,7 @@ h3 {
 }
 
 #credentials > h2 {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 #cred_list {
@@ -213,6 +213,7 @@ h3 {
 }
 
 #cred_list p {
+    font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
 }
 
