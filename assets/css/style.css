@@ -12,19 +12,21 @@
         position: relative;
         min-height: 100%;
         min-width: 100%;
+        font-size:16px;
     }
 
  /* headings rules  */
 
 #title {
     float: left;
-    font-size: 260%;
+    font-size: 2.6rem;
     margin-left: 25px;
 }
 
 h1 {
     text-transform: uppercase;
     color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* nav menu & header rules  */
@@ -46,6 +48,8 @@ header {
     float: right;
     list-style-type: none;
     margin-right: 25px;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 #navmenu a {
@@ -123,12 +127,15 @@ h2 {
     text-align: center;
     padding-bottom: 25px;
     color: black;
-    font-size: 150%;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .textcontent {
     text-align: center;
     padding: 0 25px 0 25px;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
 }
 
 /* css grid rules */
@@ -160,7 +167,8 @@ h2 {
 
 #headshot figcaption {
     color: black;
-    font-size: 150%;
+    font-size: 1.6rem;
+    font-family: 'Oswald', sans-serif;
 }
 /* about me rules */
 
@@ -208,6 +216,10 @@ h2 {
     float:left;
     height: 75px;
     padding-right: 5px;
+}
+
+#cred_list p {
+    font-family: 'Lato', sans-serif;
 }
 
 #masters {
