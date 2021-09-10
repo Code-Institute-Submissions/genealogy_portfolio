@@ -212,6 +212,7 @@ h3 {
 #cred_list  img {
     float:left;
     height: 75px;
+    width: 75px;
     padding-right: 5px;
 }
 
