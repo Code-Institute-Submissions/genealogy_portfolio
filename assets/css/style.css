@@ -407,7 +407,7 @@ li > a {
 
 /* for screens smaller then 1400px */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px)  and (min-width: 891px) {
     .textcontent {
         font-size: 1.1rem;
     }
@@ -492,13 +492,13 @@ li > a {
 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) and (min-width: 891px) {
     #home, #info, #contact {
         column-gap: 150px;
-        
+    }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) and (min-width: 891px) {
 
     #home, #info, #contact {
         column-gap: 75px;
@@ -513,7 +513,7 @@ li > a {
     }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 890px)  and (min-width: 601px) {
 
     header {
         height: 100px;
@@ -531,8 +531,7 @@ li > a {
     }
 
     #home, #info, #contact {
-        column-gap: 20px;
-        grid-template-columns: 375px 375px;
+        column-gap: 25px;
     }
 
     .textcontent {
@@ -563,11 +562,98 @@ li > a {
         margin-left: 75px;
     }
 
-
-
     .social_links > li {
         padding: 2% 2% 2% 2%;
         }
 }
 
+@media screen and (max-width: 600px) {
+
+    #home, #info, #contact {
+        grid-template-columns: 300px 300px;
+        column-gap: 25px;
+    }
+
+    .textcontent {
+        font-size: 0.8rem;
+    }
+
+    #title {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        color: black;
+        font-size: 1.1rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+
+    #headshot img {
+        height: 160px;
+        width: 250px;
+    }
+
+    #cred_list {
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(4, 50px);
+        row-gap: 10px;
+        justify-items: stretch;
+        align-items: stretch;
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    #cred_list  img {
+        float:left;
+        height: 50px;
+        width: 50px;
+        padding-right: 5px;
+    }
+    
+    #cred_list p {
+        font-size: 0.8rem;
+    }
+    
+    #services {
+        width: 250px;
+        font-size: 0.8rem;
+        list-style-position: inside;
+        padding: 10px 15px;
+    }
+    
+    #company_logo{
+        width: 250px;
+    }
+
+    #services li {
+        padding-bottom: 10px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    .form_box {
+        margin: 0 25px 10px 25px;
+        width: 250px;
+    }
+
+    #submit {
+        margin: 0 100px;
+    }
+
+    .social_links > li {
+        padding: 1% 1% 1% 1%;
+    }
+    
+
+    li > a {
+        font-size: 0.9rem;
+    }
 }
+
+         
+        
