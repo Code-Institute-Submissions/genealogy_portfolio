@@ -532,6 +532,7 @@ li > a {
 
     #home, #info, #contact {
         column-gap: 20px;
+        grid-template-columns: 375px 375px;
     }
 
     .textcontent {
